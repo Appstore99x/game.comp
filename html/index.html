@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='../css/style.css'>
+       <script src='../js/script.js'></script>
+</head>
+<body>
+ 
+<form name = "theForm">
+ 
+<table align=center border=5 width=59 cellpadding=1 cellspacing=1>
+ 
+<tr colspan=1>
+<td aign=cenetr>Are you a..</td></tr>
+<tr colspan=1>
+<td align=center >
+<input type ="radio" name="sme" value="Beginner" onClick="r()">Beginner
+<input type="radio" name="sme" value="Novice" onClick="s()">Novice
+<input type="radio" name="sme" value="Expert" onClick="t()">Expert
+</td>
+</tr>
+ 
+<tr><td colspan=1 align=center>
+<input type="button" id="button" value="Start Typing Test" name="start" onClick="beginit()">
+</td></tr>
+ 
+<tr><td><textarea name="given" cols=53 rows=3 onFocus="cheat()"></textarea>
+</td></tr>
+ 
+<tr><td colspan=1><input type="text" id="text" name="typed" size=59><input type="button" id="button" value=DONE  name="stop"  onClick="stopIt()"></td>
+</tr>
+ 
+</table></form>
+</body>
+</html>
