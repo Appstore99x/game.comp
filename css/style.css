@@ -1,0 +1,22 @@
+table{align:center;
+    border:2px solid DarkRed; background-color:#CCCC99;
+}
+textarea{
+        box-shadow: 1px 1px 0 ;
+        background-color:#CCFF99;
+        display: block;
+        font-family: 'Marck Script',cursive;
+        font-size: 22px;
+        }
+#text{
+    background-color:#CCFF99;
+    display: block;
+    text-area:20;
+    font-family:'Lucida Console',cursive;
+    font-size: 20px;
+    }      
+#button{
+    display: fade;
+    font-weight: bold;
+    color:#FF3366;
+    }
